@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: grey;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.car-display img {
+  width: 60%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.swatches {
+  margin: 20px auto;
+}
+
+.swatches h2 {
+  margin-bottom: 10px;
+}
+
+.swatch {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.swatch[data-color="red"] {
+  background-color: red;
+}
+
+.swatch[data-color="blue"] {
+  background-color: blue;
+}
+
+.swatch[data-color="black"] {
+  background-color: black;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
