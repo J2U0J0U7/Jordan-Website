@@ -1,5 +1,5 @@
 function changeCar(color) {
     const carImage = document.getElementById("carImage");
-    carImage.src = `car-${color}.png`;
+    carImage.src = `img/car-${color}.png`;
   }
   
